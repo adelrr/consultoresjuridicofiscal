@@ -1,3 +1,4 @@
+<!--Co-author: Armando Del Rio Ramírez-->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -35,20 +36,18 @@
         Header
     ============================-->
     <header id="header">
+
         <div class="container-fluid">
 
-<!--Implement as document for next mvp-->
-          <!--<form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
-            <input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
-            <input type="submit" name="submit" value="submit" />
-          </form>-->
-          <div class="alert">
-             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-             Al entrar al sitio, acepta nuestras <a href ="https://www.google.com" style="text-decoration: underline;">Políticas de privacidad</a>.
-          </div>
-
             <div id="logo" class="pull-left">
-                <h1><a href="#intro" class="scrollto">Consultores Juridico Fiscal</a></h1>
+
+                <span class="full-text">
+                  <h1><a href="#intro" class="scrollto">Consultores Juridico Fiscal</a></h1>
+                </span>
+
+                <span   class="short-text">
+                  <h1><a href="#intro" class="scrollto">CJF</a></h1>
+                </span>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
             </div>
@@ -62,14 +61,24 @@
                     <li><a href="#contact">Contacto</a></li>
                     <li><a href="#">Login</a></li><//li>
                 </ul>
+                <div id="privacy-message">
+                  <div>
+                      <div id="privacy-inner-message" class="alert alert-info">
+                          <button type="button" class="close" data-dismiss="alert">&times;</button>
+                          Al entrar a esta página, usted acepta nuestro <strong style=""><a class="alert-link" href="#">Aviso de privacidad</a></strong>
+                      </div>
+                  </div>
+                </div>
             </nav>
             <!-- #nav-menu-container -->
         </div>
+
     </header>
     <!-- #header -->
     <!--==========================
     Intro Section
   ============================-->
+
     <section id="intro">
         <div class="intro-container">
             <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
@@ -569,7 +578,7 @@
                     </form>
                 </div>
 
-              <div class="map">
+              <div class="map-responsive">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9534535095104!2d-103.37604088531154!3d20.67147260525562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae0eef4ee951%3A0xed3b494410820181!2sC.%20Miguel%20Lerdo%20de%20Tejada%202264%2C%20Col%20Americana%2C%20Lafayette%2C%2044160%20Guadalajara%2C%20Jal.!5e0!3m2!1sen!2smx!4v1629145174213!5m2!1sen!2smx"
                 position="absolute" width="1200" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>

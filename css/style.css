@@ -2,6 +2,7 @@
   Theme Name: BizPage
   Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
   Author: BootstrapMade.com
+  Co-author: Armando Del Rio Ramírez
   License: https://bootstrapmade.com/license/
 */
 /*--------------------------------------------------------------
@@ -37,25 +38,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* The alert message box */
-.alert {
-   padding: 20px;
-   background-color: #485CC7; /* Red */
-   color: white;
-   margin-bottom: 15px;
-   text: bold;
+#privacy-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
-
-/* The close button */
-.closebtn {
-   margin-left: 15px;
-   text: bold;
-   color: white;
-   font-weight: bold;
-   float: right;
-   font-size: 22px;
-   line-height: 20px;
-   cursor: pointer;
-   transition: 0.3s;
+#privacy-inner-message {
+    margin: 0 auto;
+}
+.alert-link:hover {
+    text-decoration: underline;
 }
 /*ENDS PRIVACY TERMS ALERT*/
 
@@ -64,6 +57,9 @@ h1, h2, h3, h4, h5, h6 {
  color: black;
 }
 
+/*Whatsapp icon goes here*/
+
+/*End of whatsapp icon*/
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -548,6 +544,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   position: relative;
   padding-bottom: 15px;
+}
+
+/* Hide short text by default (resolution > 1200px)*/
+.short-text { display: none; }
+
+/* When resolution <= 1200px, hide full text and show short text*/
+@media (max-width: 1200px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
 }
 
 .section-header h3::before {
@@ -1129,6 +1134,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #18d26e;
   border: 0;
   padding: 10px 30px;
+  margin-bottom: 40px;
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
@@ -1136,6 +1142,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #13a456;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 /*--------------------------------------------------------------
