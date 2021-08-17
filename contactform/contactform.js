@@ -3,6 +3,7 @@ jQuery(document).ready(function($) {
 
   //Contact
   $('form.contactForm').submit(function() {
+    alert("Gracias por contactarnos, por nuestra política de servicio, su correo será respondido el siguiente día hábil.");
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;

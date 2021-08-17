@@ -36,6 +36,34 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+/* The alert message box */
+.alert {
+   padding: 20px;
+   background-color: #485CC7; /* Red */
+   color: white;
+   margin-bottom: 15px;
+   text: bold;
+}
+
+/* The close button */
+.closebtn {
+   margin-left: 15px;
+   text: bold;
+   color: white;
+   font-weight: bold;
+   float: right;
+   font-size: 22px;
+   line-height: 20px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+/*ENDS PRIVACY TERMS ALERT*/
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+ color: black;
+}
+
 /* Back to top button */
 .back-to-top {
   position: fixed;
