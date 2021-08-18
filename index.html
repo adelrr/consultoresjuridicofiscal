@@ -44,6 +44,24 @@
     ============================-->
     <header id="header">
 
+      <!-- DATA PERFORMANCE OF NAVIGATION / ANALYTICS-->
+      <!--More info: https://www.w3.org/TR/navigation-timing/-->
+        <script type="text/javascript">
+            const perfData = window.performance.timing;
+            const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+            const connectTime = perfData.responseEnd - perfData.requestStart;
+            const renderTime = perfData.domComplete - perfData.domLoading;
+
+            var now = new Date().getTime();
+            var page_load_time = now - performance.timing.navigationStart;
+            console.info("##########################################################################");
+            console.info("User-perceived page loading time: " + page_load_time);
+            console.info("perfData, perf timing: " + perfData);
+            console.info("pageLoadTime Time: " + pageLoadTime);
+            console.info("Connect Time: " + connectTime);
+            console.info("render time: " + renderTime);
+        </script>
+
         <div class="container-fluid">
 
             <div id="logo" class="pull-left">
@@ -66,7 +84,15 @@
                     <li><a href="#services">Servicios</a></li><!--Anteriormente Services-->
                     <li><a href="#portfolio">Alianzas</a></li><!--Anteriormente portfolio--><!--Quitar team y Drop Down-->
                     <li><a href="#contact">Contacto</a></li>
-                    <li><a href="#">Login</a></li><//li>
+                    <li><a href="#">Login</a></li>
+                    <!--
+                      <form action="/action_page.php" method="get">
+                        <label for="user">Usuario:</label>
+                        <input name="usuario" id="usuario">
+                        <label for="contrasena">Usuario:</label>
+                        <input name="contrasena" id="contrasena">
+                        <input type="submit">
+                      -->
                 </ul>
                 <div id="privacy-message">
                   <div>
