@@ -25,9 +25,16 @@
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- jQuery Libraries-->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/floating-wpp.min.js"></script>
+    <link rel="stylesheet" href="js/floating-wpp.min.css">
+
 </head>
 
 <body>
@@ -42,7 +49,7 @@
             <div id="logo" class="pull-left">
 
                 <span class="full-text">
-                  <h1><a href="#intro" class="scrollto">Consultores Juridico Fiscal</a></h1>
+                  <h1><a href="#intro" class="scrollto">Consultores Jurídico Fiscal</a></h1>
                 </span>
 
                 <span   class="short-text">
@@ -351,16 +358,16 @@
             <div class="container">
 
                 <header class="section-header">
-                    <h3 class="section-title">Our Portfolio</h3>
+                    <h3 class="section-title">Alianzas</h3>
                 </header>
 
                 <div class="row">
                     <div class="col-lg-12">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
+                            <li data-filter=".filter-app">Legal</li>
+                            <li data-filter=".filter-card">Corporativo</li>
+                            <li data-filter=".filter-web">Contable</li>
                         </ul>
                     </div>
                 </div>
@@ -552,32 +559,6 @@
 
                 </div>
 
-                <div class="form">
-                    <div id="sendmessage">Su mensaje ha sido enviad ¡Gracias!</div>
-                    <div id="errormessage"></div>
-                    <form action="" method="post" role="form" class="contactForm">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
-                                <div class="validation"></div>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Por favor ingrese un mail válido" />
-                                <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Su asunto debe contener al menos 8 caracteres" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="¡Escríbanos!" placeholder="Mensaje"></textarea>
-                            <div class="validation"></div>
-                        </div>
-                        <div class="text-center"><button type="submit">Enviar mensaje</button></div>
-                    </form>
-                </div>
-
               <div class="map-responsive">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9534535095104!2d-103.37604088531154!3d20.67147260525562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae0eef4ee951%3A0xed3b494410820181!2sC.%20Miguel%20Lerdo%20de%20Tejada%202264%2C%20Col%20Americana%2C%20Lafayette%2C%2044160%20Guadalajara%2C%20Jal.!5e0!3m2!1sen!2smx!4v1629145174213!5m2!1sen!2smx"
                 position="absolute" width="1200" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -647,11 +628,13 @@
         </div>
     </footer>
     <!-- #footer -->
-
+    <div id="myDiv"></div>
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
@@ -664,6 +647,7 @@
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>
 
@@ -671,5 +655,22 @@
     <script src="js/main.js"></script>
 
 </body>
+<!--
+    Whatsapp customization at:
+    https://github.com/rafaelbotazini/floating-whatsapp
+-- >
+<script type="text/javascript">
+  $('#myDiv').floatingWhatsApp({
+    phone: '+523336615171',
+    popupMessage: 'Bienvenido a Consultores Jurídico Fiscal\n¿En qué podemos ayudadarle?',
+    showPopup: true,
+    showOnIE: false,
+    position: 'left',
+    headerTitle: 'Bienvenido',
+    headerColor: 'crimson',
+    backgroundColor: 'crimson',
+    buttonImage: '<img src="img/whatsapp.svg"/>'
+  });
+</script>
 
 </html>
