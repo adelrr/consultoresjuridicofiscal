@@ -757,8 +757,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
 }
 
-#services .title a {
+#services .title {
   color: #111;
+}
+
+#featured-services ul {
+  color: #18d26e;
 }
 
 #services .box:hover .title a {
