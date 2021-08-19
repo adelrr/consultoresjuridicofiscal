@@ -11,7 +11,7 @@
     <meta name="author" content="Armando Del Río R">
 
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -55,13 +55,15 @@
 
             var now = new Date().getTime();
             var page_load_time = now - performance.timing.navigationStart;
-            console.info("##########################################################################");
+            console.log("##########################################################################");
             console.info("User-perceived page loading time: " + page_load_time);
             console.info("perfData, perf timing: " + perfData);
             console.info("pageLoadTime Time: " + pageLoadTime);
             console.info("Connect Time: " + connectTime);
             console.info("render time: " + renderTime);
+            console.log("##########################################################################");
         </script>
+      <!-- END OF DATA PERFORMANCE OF NAVIGATION / ANALYTICS-->
 
         <div class="container-fluid">
 
@@ -206,20 +208,30 @@
 
                     <div class="col-lg-4 box">
                         <i class="ion-ios-bookmarks-outline"></i>
-                        <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        <h4 class="title"><a href="#map-section">Agenda una cita presencial</a></h4>
+                        <a href="#map-section"><p class="description">Disponemos de citas presenciales con las medidas necesarias.</p></a>
                     </div>
 
                     <div class="col-lg-4 box box-bg">
                         <i class="ion-ios-stopwatch-outline"></i>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        <h4 class="title"><a href="">Horario de Servicio</a></h4>
+                        <p class="description">Nuestro horario de servicio es de:
+                          <ul>
+                            <li>9:00 a 14:00 horas.</li>
+                            <li>15:30 a 19:00 horas.</li>
+                          </ul>
+                        </p>
                     </div>
 
                     <div class="col-lg-4 box">
                         <i class="ion-ios-heart-outline"></i>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        <h4 class="title"><a href="https://www.calendly.com/informacioncjf/">Agenda una cita virtual</a></h4>
+                        <p class="description">Agendar:
+                          <ul>
+                            <a href="https://calendly.com/informacioncjf/60min"><li>Desde 60 min</li></a>
+                            <a href="https://calendly.com/informacioncjf/30min"><li>Hasta 30 min</li></a>
+                          </ul>
+                        </p>
                     </div>
 
                 </div>
@@ -589,13 +601,17 @@
                         <div class="contact-email">
                             <i class="ion-ios-email-outline"></i>
                             <h3>Email</h3>
-                            <p><a href="mailto:adelrio@megared.net.mx">adelrio@megared.net.mx</a></p>
+                            <p><a href="mailto:informacioncjf@gmail.com">informacioncjf@gmail.com</a></p>
                         </div>
                     </div>
 
                 </div>
 
-              <div class="map-responsive">
+<!--==========================
+Map sub-Section
+============================-->
+
+              <div id="map-section" class="map-responsive">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9534535095104!2d-103.37604088531154!3d20.67147260525562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae0eef4ee951%3A0xed3b494410820181!2sC.%20Miguel%20Lerdo%20de%20Tejada%202264%2C%20Col%20Americana%2C%20Lafayette%2C%2044160%20Guadalajara%2C%20Jal.!5e0!3m2!1sen!2smx!4v1629145174213!5m2!1sen!2smx"
                 position="absolute" width="1200" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
@@ -635,7 +651,7 @@
                         <p>
                             Av. Lerdo de Tejada #2264 int-101<br> Guadalajara, Jalisco C.P. 44190<br> México <br>
                             <strong>Phone:</strong>(+52) 33-36-61-51-71<br>
-                            <strong>Email:</strong> adelrio@megared.net.mx<br>
+                            <strong>Email:</strong> informacioncjf@gmail.comx<br>
                         </p>
 
                         <div class="social-links">
