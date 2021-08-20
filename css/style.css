@@ -775,7 +775,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
 }
 
-#featured-services .to-map:hover a {
+#featured-services #to-map:hover a {
   text-decoration: underline;
 }
 
