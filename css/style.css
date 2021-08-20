@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     width: 100%;
-    margin-top: 74px;
+    margin-top: 73px;
     text-align: justify;
 }
 
@@ -775,7 +775,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
 }
 
-#featured-services #to-map:hover a {
+#featured-services a:hover {
   text-decoration: underline;
 }
 

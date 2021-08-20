@@ -11,8 +11,8 @@
         General
     ============================-->
 
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="utf-8">
@@ -46,7 +46,7 @@
     <!-- jQuery Libraries-->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/floating-wpp.min.js"></script>
-    <link rel="stylesheet" href="js/floating-wpp.min.css">
+    <link rel="stylesheet" type="text/css"  href="js/floating-wpp.min.css">
 
 </head>
 
@@ -101,23 +101,13 @@
                     <li><a href="#contact">Contacto</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
-                <!--
                 <div id="privacy-message">
-                  <div>
-                      <div id="privacy-inner-message" class="alert alert-info alert alert-primary">
-                          <button type="button" class="close" data-dismiss="alert">&times;</button>
-                          Al entrar a esta página, usted acepta nuestro <strong style=""><a class="alert-link" href="#">Aviso de privacidad</a></strong>
-                      </div>
-                  </div>
-                </div> -->
-                <div id="privacy-message">
-                  <div style="    padding-left: 5px;">
-
-                      <div id="privacy-inner-message" class="alert alert-info alert-primary d-flex p-2 pl-5 ">
+                  <div style="">
+                      <div id="privacy-inner-message" class="alert alert-info alert-primary d-flex p-2 pl-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
                           <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                         </svg>
-                        Al entrar a esta página, usted acepta nuestro<strong><a class="alert-link" href="#">Aviso de privacidad</a></strong>
+                        Al entrar a esta página, usted acepta nuestro<strong><a class="alert-link" href="html/terminos-y-condiciones.html">Aviso de privacidad</a></strong>
                         <button type="button" class="close align-items-right" data-dismiss="alert">&times;</button>
                       </div>
                   </div>
@@ -227,7 +217,7 @@
                     <div class="col-lg-4 box">
                         <i class="ion-ios-bookmarks-outline"></i>
                         <h4 class="title"><a href="#map-section">Agenda una cita presencial</a></h4>
-                        <p class="description" style="font-size: 14px">Disponemos de citas <a id="to-map" href="#map-section" >presenciales</a> con las medidas y protocolos de contingencia necesarios
+                        <p class="description" style="font-size: 14px">Disponemos de citas <a id="to-map" href="#map-section">presenciales</a> con las medidas y protocolos de contingencia necesarios
                           <ul>
                             </br>
                             <a class="appointment" href="https://calendly.com/informacioncjf/60min"><li>60 min</li></a>
@@ -666,7 +656,7 @@ Map sub-Section
                             <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
                             <li><i class="ion-ios-arrow-right"></i> <a href="#">Nosotros</a></li>
                             <li><i class="ion-ios-arrow-right"></i> <a href="#">Servicios</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="#">Aviso de privacidad</a></li>
+                            <li><i class="ion-ios-arrow-right"></i> <a href="html/terminos-y-condiciones.html">Aviso de privacidad</a></li>
                         </ul>
                     </div>
 
@@ -683,14 +673,6 @@ Map sub-Section
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                         </div>
 
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-newsletter">
-                        <h4>Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
                     </div>
 
                 </div>
@@ -723,9 +705,6 @@ Map sub-Section
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
