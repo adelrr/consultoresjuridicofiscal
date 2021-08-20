@@ -43,11 +43,29 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     width: 100%;
-    margin-top: 73px;
+    margin-top: 74px;
+    text-align: justify;
 }
+
 #privacy-inner-message {
     margin: 0 auto;
+    padding-block-start: 20px;
+    writing-mode: horizontal-tb;
 }
+
+#privacy-inner-message button {
+    margin-left:10px;
+}
+
+#privacy-inner-message svg {
+    margin-right:20px;
+    margin-left: 20px;
+}
+
+.alert-link {
+  margin-left: 10px;
+}
+
 .alert-link:hover {
     text-decoration: underline;
 }
@@ -757,12 +775,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
 }
 
+#featured-services .to-map:hover a {
+  text-decoration: underline;
+}
+
 #services .title {
   color: #111;
 }
 
 #featured-services ul {
   color: #18d26e;
+}
+
+#featured-services .appointment:hover li {
+    text-decoration: underline;
+}
+
+#featured-services availability-schedule {
+  text-indent: left;
+  font-size: 8px;
 }
 
 #services .box:hover .title a {
