@@ -777,6 +777,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 50%;
+            zoom: 50%;
         }
     }
     /* Services Section
