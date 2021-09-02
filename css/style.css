@@ -71,6 +71,18 @@
                 margin-right: 20px;
                 margin-left: 20px;
             }
+            /*Falta revisar esto*/
+            
+            @media (max-width: 1200px) {
+                #privacy-inner-message strong {
+                    display: inline-flexbox;
+                }
+                #privacy-inner-message svg {
+                    width: 70px;
+                    height: 70px;
+                    display: flex;
+                }
+            }
             
             .alert-link {
                 margin-left: 10px;

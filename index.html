@@ -57,26 +57,6 @@
     ============================-->
     <header id="header">
 
-        <!-- DATA PERFORMANCE OF NAVIGATION / ANALYTICS-->
-        <!--More info: https://www.w3.org/TR/navigation-timing/-->
-        <script type="text/javascript">
-            const perfData = window.performance.timing;
-            const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
-            const connectTime = perfData.responseEnd - perfData.requestStart;
-            const renderTime = perfData.domComplete - perfData.domLoading;
-
-            var now = new Date().getTime();
-            var page_load_time = now - performance.timing.navigationStart;
-            console.log("##########################################################################");
-            console.info("User-perceived page loading time: " + page_load_time);
-            console.info("perfData, perf timing: " + perfData);
-            console.info("pageLoadTime Time: " + pageLoadTime);
-            console.info("Connect Time: " + connectTime);
-            console.info("render time: " + renderTime);
-            console.log("##########################################################################");
-        </script>
-        <!-- END OF DATA PERFORMANCE OF NAVIGATION / ANALYTICS-->
-
         <div class="container-fluid">
 
             <div id="logo" class="pull-left">
@@ -106,12 +86,12 @@
                     <li><a href="#">Login</a></li>
                 </ul>
                 <div id="privacy-message">
-                    <div style="">
+                    <div>
                         <div id="privacy-inner-message" class="alert alert-info alert-primary d-flex p-2 pl-4">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                          <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                        </svg> Al entrar a esta página, usted acepta nuestro<strong><a class="alert-link" href="html/terminos-y-condiciones.html">Aviso de privacidad</a></strong>
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                            </svg> Al entrar a esta página, usted acepta nuestro<strong><a class="alert-link" href="html/terminos-y-condiciones.html">Aviso de privacidad</a></strong>
                             <button type="button" class="close align-items-right" data-dismiss="alert">&times;</button>
                         </div>
                     </div>
@@ -636,7 +616,7 @@ Map sub-Section
 
                 <div id="map-section" class="map-responsive">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9534535095104!2d-103.37604088531154!3d20.67147260525562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae0eef4ee951%3A0xed3b494410820181!2sC.%20Miguel%20Lerdo%20de%20Tejada%202264%2C%20Col%20Americana%2C%20Lafayette%2C%2044160%20Guadalajara%2C%20Jal.!5e0!3m2!1sen!2smx!4v1629145174213!5m2!1sen!2smx"
-                        position="absolute" style="border:0; width: 100%; height: 270px;" allowfullscreen loading="lazy"></iframe>
+                        position="absolute" style="border:0; width: 100%; height: 270px;" allowfullscreen="true" loading="lazy"></iframe>
                 </div>
 
             </div>
@@ -736,5 +716,25 @@ Map sub-Section
     buttonImage: '<img src="img/whatsapp.svg"/>'
   });
 </script>
+
+        <!-- DATA PERFORMANCE OF NAVIGATION / ANALYTICS-->
+<!--More info: https://www.w3.org/TR/navigation-timing/-->
+<script type="text/javascript">
+    const perfData = window.performance.timing;
+    const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+    const connectTime = perfData.responseEnd - perfData.requestStart;
+    const renderTime = perfData.domComplete - perfData.domLoading;
+
+    var now = new Date().getTime();
+    var page_load_time = now - performance.timing.navigationStart;
+    console.log("##########################################################################");
+    console.info("User-perceived page loading time: " + page_load_time);
+    console.info("perfData, perf timing: " + perfData);
+    console.info("pageLoadTime Time: " + pageLoadTime);
+    console.info("Connect Time: " + connectTime);
+    console.info("render time: " + renderTime);
+    console.log("##########################################################################");
+</script>
+<!-- END OF DATA PERFORMANCE OF NAVIGATION / ANALYTICS-->
 
 </html>
