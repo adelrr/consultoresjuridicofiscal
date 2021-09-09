@@ -66,6 +66,7 @@ h6 {
 
 #privacy-inner-message button {
     margin-left: 10px;
+    justify-content: space-between;
 }
 
 #privacy-inner-message svg {
@@ -118,9 +119,12 @@ h6 {
         display: flex;
         border: none;
     }
-    /*.btn-anexo{
-        disabl
-    }*/
+    .header-anexo {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px 0;
+        height: 72px;
+        transition: all 0.3s;
+    }
 }
 
 .alert-link {
