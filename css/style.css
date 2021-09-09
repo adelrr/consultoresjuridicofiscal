@@ -108,9 +108,6 @@ h6 {
         font-size: 17px;
         text-align: justify;
     }
-    .on-mobile {
-        display: none;
-    }
     .text-level strong {
         text-decoration: underline black;
     }
