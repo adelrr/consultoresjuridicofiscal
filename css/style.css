@@ -56,11 +56,10 @@ h6 {
     left: 0;
     width: 100%;
     margin-top: 64px;
-    text-align: justify;
 }
 
 #privacy-inner-message {
-    margin: 10px auto;
+    margin: 0px auto;
     padding-top: 5px;
     writing-mode: horizontal-tb;
 }
@@ -119,6 +118,9 @@ h6 {
         display: flex;
         border: none;
     }
+    /*.btn-anexo{
+        disabl
+    }*/
 }
 
 .alert-link {
