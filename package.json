@@ -1,0 +1,26 @@
+{
+  "name": "consultoresjuridicofiscal",
+  "version": "1.0.0",
+  "description": "Despacho consultores juridico fiscal",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adelriorz/consultoresjuridicofiscal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adelriorz/consultoresjuridicofiscal/issues"
+  },
+  "homepage": "https://github.com/adelriorz/consultoresjuridicofiscal#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
