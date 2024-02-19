@@ -1,15 +1,6 @@
-<!--
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  Co-author: Armando Del Rio Ramírez
-  License: https://bootstrapmade.com/license/
-  Co-author: Armando Del Rio Ramírez
--->
-
 <!--==========================
         General
-    ============================-->
+============================-->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
@@ -18,7 +9,7 @@
     <meta charset="utf-8">
     <title>CJF</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Consultores Jurídico Fiscal">
+    <meta name="description" content="Consultores Jurídico-Fiscal">
     <meta name="keywords" content="Fiscal, Derecho, Nóminas, Derecho Fiscal, Abogado Fiscalista, Consultoría Fiscal">
     <meta name="author" content="Armando Del Río R">
 
@@ -62,14 +53,12 @@
             <div id="logo" class="pull-left">
 
                 <span class="full-text">
-                  <h1><a href="#intro" class="scrollto">Consultores Jurídico Fiscal</a></h1>
+                  <h1><a href="#intro" class="scrollto">Consultores Jurídico-Fiscal</a></h1>
                 </span>
 
                 <span class="short-text">
                   <h1><a href="#intro" class="scrollto">CJF</a></h1>
                 </span>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
             </div>
 
             <nav id="nav-menu-container">
@@ -82,27 +71,30 @@
                     <li><a href="#portfolio">Alianzas</a></li>
                     <!--Anteriormente portfolio-->
                     <li><a href="#contact">Contacto</a></li>
-                    <!--<li><a href="#">Login</a></li>-->
                 </ul>
                 <div id="privacy-message">
-                    <div id="privacy-inner-message" class="alert alert-info alert-primary d-flex p-2 pl-4 div-container" role="alert">
-                        <div class="svg-level on-mobile">
-                            <svg xmlns="http://www.w3.org/2000/svg " fill="currentColor " class="bi bi-info-circle " viewBox="0 0 16 16 ">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z "/>
-                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1
-                                1 0 1 1-2 0 1 1 0 0 1 2 0z "/>
-                            </svg>
-                        </div>
-                        <div class="text-level">
-                            <span>
-                                Al entrar a esta página, usted acepta nuestro<strong><a class="alert-link " href="html/terminos-y-condiciones.html ">Aviso de privacidad</a></strong>
-                            </span>
-                        </div>
-                        <div class="button-level">
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        </div>
-                    </div>
-                </div>
+    <div id="privacy-inner-message" class="alert alert-info alert-primary d-flex p-2 pl-4 div-container" role="alert">
+        <div class="svg-level on-mobile">
+            </div>
+        <div class="text-level">
+            <span style="text-align: center;">
+                Al entrar a esta página, usted acepta nuestro<strong><a class="alert-link" href="html/terminos-y-condiciones.html">Aviso de privacidad</a></strong>
+            </span>
+        </div>
+        <div class="button-level">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <script>
+            // Add JavaScript code to close the alert on click
+            document.querySelector('.close').addEventListener('click', function() {
+                document.getElementById('privacy-message').remove();
+            });
+        </script>
+    </div>
+</div>
             </nav>
             <!-- #nav-menu-container -->
         </div>
@@ -132,23 +124,11 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url('img/intro-carousel/2.jpg');">
-                        <div class="carousel-container">
-                            <div class="carousel-content">
-                                <h2>At vero eos et accusamus</h2>
-                                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis
-                                    debitis aut.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="carousel-item" style="background-image: url('img/intro-carousel/3.jpg');">
                         <div class="carousel-container">
                             <div class="carousel-content">
-                                <h2>Temporibus autem quibusdam</h2>
-                                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem
-                                    accusantium.
+                                <h2>Tranquilidad y confianza</h2>
+                                <p>Experimente la seguridad de saber que sus asuntos fiscales están en manos de expertos.
                                 </p>
                                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
                             </div>
@@ -158,9 +138,8 @@
                     <div class="carousel-item" style="background-image: url('img/intro-carousel/4.jpg');">
                         <div class="carousel-container">
                             <div class="carousel-content">
-                                <h2>Nam libero tempore</h2>
-                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-                                    quis nostrum.</p>
+                                <h2>Toma de decisiones estratégicas</h2>
+                                <p>Brindamos información precisa y análisis exhaustivo para que tome decisiones informadas.</p>
                                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
                             </div>
                         </div>
@@ -169,9 +148,8 @@
                     <div class="carousel-item" style="background-image: url('img/intro-carousel/5.jpg');">
                         <div class="carousel-container">
                             <div class="carousel-content">
-                                <h2>Magnam aliquam quaerat</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
+                                <h2>Aliados en materia fiscal</h2>
+                                <p>Le ayudamos a cumplir con todas sus obligaciones fiscales de forma eficiente y segura.
                                 </p>
                                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
                             </div>
@@ -206,21 +184,15 @@
 
                     <div class="col-lg-4 box">
                         <i class="ion-ios-bookmarks-outline"></i>
-                        <h4 class="title"><a href="#map-section">Agenda una cita presencial</a></h4>
-                        <p class="description" style="font-size: 14px">Disponemos de citas <a id="to-map" href="#map-section">presenciales</a> con las medidas y protocolos de contingencia necesarios
-                            <ul>
-                                </br>
-                                <a class="appointment" href="https://calendly.com/informacioncjf/60min">
-                                    <li>60 min</li>
-                                </a>
-                            </ul>
+                        <h4 class="title"><a href="tel:3336615171" alt="Call 333-661-5171">Agenda una cita presencial</a></h4>
+                        <p class="description" style="font-size: 14px"><strong>Amplía las posibilidades. </strong> Reserva una sesión estratégica y descubre cómo podemos impulsar tu éxito financiero.
                         </p>
                     </div>
 
                     <div class="col-lg-4 box box-bg">
                         <i class="ion-ios-stopwatch-outline"></i>
                         <h4 class="title"><a href="">Horario de Servicio</a></h4>
-                        <p class="description">Es un gusto atendender de Lunes a Viernesde:
+                        <p class="description">Es un gusto atendender de Lunes a Viernes de:
                             <ul>
                                 </br>
                                 <li>9:00 a 14:00 horas.</li>
@@ -231,17 +203,8 @@
 
                     <div class="col-lg-4 box">
                         <i class="ion-ios-videocam-outline"></i>
-                        <h4 class="title"><a href="https://www.calendly.com/informacioncjf/">Agenda una cita virtual</a></h4>
-                        <p class="description">Agendar:
-                            <ul>
-                                </br>
-                                <a class="appointment" href="https://calendly.com/informacioncjf/15min">
-                                    <li>Desde 15 min</li>
-                                </a>
-                                <a class="appointment" href="https://calendly.com/informacioncjf/30min">
-                                    <li>Hasta 30 min</li>
-                                </a>
-                            </ul>
+                        <h4 class="title"><a href="https://calendly.com/d/47m-7d6-wf7/consulta-de-1-hora">Agenda una cita virtual</a></h4>
+                        <p class="description">Haz click <a class="appointment" href="https://calendly.com/d/47m-7d6-wf7/consulta-de-1-hora">aquí</a> para reunirte con nosotros.
                         </p>
                     </div>
                 </div>
@@ -256,8 +219,14 @@
             <div class="container">
 
                 <header class="section-header">
+                    <div>
                     <h3>Nosotros</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Somos una firma de abogados líder en el mercado, con más de 20 años de experiencia brindando soluciones innovadoras y personalizadas a PyMEs y grandes empresas.
+                    <br><br>
+                    Nuestro equipo de expertos está compuesto por abogados altamente especializados, apasionados por ayudar a nuestros clientes a alcanzar sus metas financieras. Nos caracterizamos por nuestro enfoque proactivo, nuestra atención personalizada y nuestro compromiso con la excelencia.
+                    </p>
+                    <h3>Nuestros valores, nuestro motor</h3>
+                </div>
                 </header>
 
                 <div class="row about-cols">
@@ -268,9 +237,9 @@
                                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                             </div>
-                            <h2 class="title"><a href="#">Nuestra Misión</a></h2>
+                            <h2 class="title"><a href="#">Excelencia</a></h2>
                             <p>
-                                Entender la necesidad de nuestros clientes
+                                <b>En el mundo empresarial, la competencia es feroz.</b> Para destacarse, necesita un equipo de expertos que le ofrezca soluciones fiscales innovadoras y de la más alta calidad. Nuestro equipo de abogados fiscalistas altamente especializados está dedicado a brindar un servicio, superando sus expectativas y permitiéndole alcanzar el éxito.
                             </p>
                         </div>
                     </div>
@@ -281,18 +250,9 @@
                                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
                             </div>
-                            <h2 class="title"><a href="#">Compartimos Valores</a></h2>
+                            <h2 class="title"><a href="#">Confianza</a></h2>
                             <p>
-                                <ul style="list-style-type: upper-roman;">
-                                    <li><strong>Honestidad:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                                    </li>
-                                    </br>
-                                    <li><strong>Justicia:</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.
-                                    </li>
-                                    </br>
-                                    <li><strong>Equidad:</strong> Et harum quidem rerum facilis est et expedita distinctio.
-                                    </li>
-                                </ul>
+                                <b>Su éxito depende de tomar decisiones estratégicas con información precisa y confiable.</b> Nos convertimos en su aliado de confianza, brindándole un análisis exhaustivo de su situación fiscal y diseñando estrategias personalizadas que le permitan alcanzar sus objetivos financieros con tranquilidad.
                             </p>
                         </div>
                     </div>
@@ -303,9 +263,9 @@
                                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                             </div>
-                            <h2 class="title"><a href="#">Nuestra Visión</a></h2>
+                            <h2 class="title"><a href="#">Proactividad</a></h2>
                             <p>
-                                Consolidar la tranquilidad patrimonial y personal mediante el trato humano
+                                <b>El panorama fiscal está en constante cambio.</b> Usted necesita un asesor que anticipe los cambios y le ayude a adaptarse a ellos de manera eficiente. Nos mantenemos actualizados con las últimas modificaciones al sistema tributario y le asesoramos proactivamente para que pueda aprovechar las oportunidades y minimizar los riesgos.
                             </p>
                         </div>
                     </div>
@@ -324,25 +284,40 @@
 
                 <header class="section-header wow fadeInUp">
                     <h3>Servicios</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+                    <p>Asesoría integral</p>
                 </header>
 
                 <div class="row">
 
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                         <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        <h4 class="title"><a href="">Planificación fiscal</a></h4>
+                        <p class="description">Diseñamos estrategias fiscales personalizadas para optimizar su carga fiscal y alcanzar sus objetivos financieros, tomando en cuenta las últimas modificaciones al sistema tributario Mexicano y las particularidades del Estado de Jalisco.</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                         <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        <h4 class="title"><a href="">Asesoramiento Financiero</a></h4>
+                        <p class="description">Realizamos conciliación entre acreedores financieros y el deudor de la banca, liquidando los créditos al menor costo.</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                         <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        <h4 class="title"><a href="">Litigios fiscales</a></h4>
+                        <p class="description">Defendemos sus intereses en caso de controversias fiscales con las autoridades del Estado de Jalisco, con un equipo altamente calificado en la resolución de conflictos fiscales.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                        <div class="icon"><i class="ion-ios-book-outline"></i></div>
+                        <h4 class="title"><a href="">Due diligence y cumplimiento fiscal</a></h4>
+                        <p class="description">Realizamos un análisis exhaustivo de la situación fiscal de una empresa en el contexto de una compraventa o fusión, brindándole información precisa para tomar decisiones estratégicas.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                        <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
+                        <h4 class="title"><a href="">Impuestos locales y estatales</a></h4>
+                        <p class="description">Le brindamos asistencia especializada en el cumplimiento de las obligaciones fiscales específicas del Estado de Jalisco, como el Impuesto Sobre la Nómina, el Impuesto Predial y el Impuesto sobre Adquisición de Inmuebles.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                        <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+                        <h4 class="title"><a href="">Asesoría en materia de contabilidad y administración</a></h4>
+                        <p class="description">Le ayudamos a optimizar la gestión financiera de su empresa y a cumplir con las obligaciones contables.</p>
                     </div>
 
                 </div>
@@ -385,10 +360,6 @@
 
                 </div>
 
-                <div class="facts-img">
-                    <img src="img/facts-img.png" alt="" class="img-fluid">
-                </div>
-
             </div>
         </section>
         <!-- #facts -->
@@ -406,57 +377,56 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">Legal</li>
-                            <li data-filter=".filter-card">Corporativo</li>
-                            <li data-filter=".filter-web">Contable</li>
+                            <li data-filter="*" class="filter-active">Todo</li>
+                            <li data-filter=".filter-fiduciaria">Fiduciaria</li>
+                            <li data-filter=".filter-fiscal">Fiscal</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row portfolio-container">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-fiduciaria wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                                <img src="img/alianzas-equipo/Fiduciario.png" class="img-fluid" alt="Consultores Jurídico Fiduciario Jalisco">
+                                <a href="img/alianzas-equipo/Fiduciario.png" data-lightbox="portfolio" data-title="Cédula No. 4493650" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="https://www.clegalfid.com/nosotros" class="link-details" title="More Details" target="_blank"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#">App 1</a></h4>
-                                <p>App</p>
+                                <h4><a href="https://www.clegalfid.com/nosotros">Consultoría Legal y Fiduciaria</a></h4>
+                                <p>Lic. Alicia Del Río Rodríguez</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-fiscal wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="img/alianzas-equipo/fundador.jpg" class="img-fluid" alt="Abogado Fiscalista Jalisco">
+                                <a href="img/alianzas-equipo/fundador.jpg" class="link-preview" data-lightbox="portfolio" data-title="Cédula No. 8866867" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#">Web 3</a></h4>
-                                <p>Web</p>
+                                <h4><a href="#">Fiscalista Fundador</a></h4>
+                                <p>M.D.F. Armando Del Río Rodríguez</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-fiscal wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="img/alianzas-equipo/card1.jpg" class="img-fluid" alt="Abogado Fiscalista Michoacán">
+                                <a href="img/alianzas-equipo/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Cédula No. 1042865" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#">Card 1</a></h4>
-                                <p>Card</p>
+                                <h4><a href="#"></a>Abogado Fiscalista</h4>
+                                <p>NAME</p>
                             </div>
                         </div>
                     </div>
@@ -477,23 +447,15 @@
 
                 <div class="row contact-info">
 
-                    <div class="col-md-3">
-                        <div class="contact-address">
-                            <i class="ion-ios-location-outline"></i>
-                            <h3>Matriz</h3>
-                            <address><a>Av. Lerdo de Tejada #2264 int-101</a></address>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="contact-address">
                             <i class="ion-ios-location-outline"></i>
                             <h3>Sucursal</h3>
-                            <address><a>Simón Bolívar #135</a></address>
+                            <address><a>C. Miguel Lerdo de Tejada 2264. Col. Americana. C.P. 44190</a></address>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="contact-phone">
                             <i class="ion-ios-telephone-outline"></i>
                             <h3>Número celular</h3>
@@ -501,11 +463,11 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="contact-email">
                             <i class="ion-ios-email-outline"></i>
                             <h3>Email</h3>
-                            <p><a href="mailto:informacioncjf@gmail.com">informacioncjf@gmail.com</a></p>
+                            <p><a href="mailto:infoconsultoresjf@gmail.com">informacioncjf@gmail.com</a></p>
                         </div>
                     </div>
 
@@ -555,12 +517,13 @@ Map sub-Section
                         <p>
                             Av. Lerdo de Tejada #2264 int-101<br> Guadalajara, Jalisco C.P. 44190<br> México <br>
                             <strong>Phone: </strong>(+52) 33-36-61-51-71<br>
-                            <strong>Email: </strong> informacioncjf@gmail.comx<br>
+                            <strong>Email: </strong> informacioncjf@gmail.com<br>
                         </p>
 
                         <div class="social-links">
                             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-rss" aria-hidden="true"></i></a>
                         </div>
 
                     </div>
@@ -571,7 +534,7 @@ Map sub-Section
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong>Consultores Jurídico Fiscal</strong>. Todos los derechos reservados
+                &copy; Copyright <strong>Consultores Jurídico-Fiscal</strong>. Todos los derechos reservados
             </div>
         </div>
     </footer>
@@ -601,52 +564,21 @@ Map sub-Section
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-
+    <script>
+        document.querySelector('.close').addEventListener('click', function() {
+          document.getElementById('privacy-message').remove();
+        });
+        </script>
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
 </body>
-<!--
-    Whatsapp customization at:
-    https://github.com/rafaelbotazini/floating-whatsapp
--- >
-<script type="text/javascript">
-  $('#myDiv').floatingWhatsApp({
-    phone: '+523336615171',
-    popupMessage: 'Bienvenido a Consultores Jurídico Fiscal\n¿En qué podemos ayudadarle?',
-    showPopup: true,
-    showOnIE: false,
-    position: 'left',
-    headerTitle: 'Bienvenido',
-    headerColor: 'crimson',
-    backgroundColor: 'crimson',
-    buttonImage: '<img src="img/whatsapp.svg"/>'
-  });
-</script>
-<script>
-    $.click(hideAlert() {
-        $alert.hide();
-      });
-</script>
-
-        <!-- DATA PERFORMANCE OF NAVIGATION / ANALYTICS-->
-<!--More info: https://www.w3.org/TR/navigation-timing/-->
-<script type="text/javascript">
-    const perfData = window.performance.timing;
-    const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
-    const connectTime = perfData.responseEnd - perfData.requestStart;
-    const renderTime = perfData.domComplete - perfData.domLoading;
-
-    var now = new Date().getTime();
-    var page_load_time = now - performance.timing.navigationStart;
-    console.log("##########################################################################");
-    console.info("User-perceived page loading time: " + page_load_time);
-    console.info("perfData, perf timing: " + perfData);
-    console.info("pageLoadTime Time: " + pageLoadTime);
-    console.info("Connect Time: " + connectTime);
-    console.info("render time: " + renderTime);
-    console.log("##########################################################################");
-</script>
-<!-- END OF DATA PERFORMANCE OF NAVIGATION / ANALYTICS-->
-
 </html>
+<!--
+  Theme Name: BizPage
+  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  Author: BootstrapMade.com
+  Co-author: Armando Del Rio Ramírez
+  License: https://bootstrapmade.com/license/
+  Co-author: Armando Del Rio Ramírez
+-->
