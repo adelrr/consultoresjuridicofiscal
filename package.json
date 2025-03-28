@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/adelriorz/consultoresjuridicofiscal#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.2"
   }
 }
